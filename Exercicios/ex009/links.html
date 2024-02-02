@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personalizando links</title>
+
+       <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: darkblue;
+        }
+        a{
+            color: rgb(13, 12, 63);
+            text-decoration: none;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+                color: rgba(255, 255, 0, 0.068);
+        }
+        a::after{
+            content: '[link]';
+            text-align: none;
+            font-weight: normal;
+            color: darkblue;
+        }
+       </style>
+
+</head>
+<body>
+    <ul type ="circle">
+        <li>
+            <a href="#">canal do youtube</a>
+        </li>
+        <li>
+            <a href="#">site curso em video</a>
+        </li>
+        <li>
+            <a href="#">@gebelpaciencia.com</a>
+        </li>
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com grouping tags  </title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(110, 109, 109);
+            margin: 0px;
+        }
+        
+        header{
+            background-color:rgb(223, 233, 223);
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article{
+            background: white;
+            padding: 5px;
+        }
+        nav{
+            background-color: rgb(97, 95, 95);
+            padding: 10px;
+            box-shadow: 1px 1px 1px black;
+        }
+        article{
+            background-color: lightgrey;
+        }
+        article > aside {
+            background-color: lightgray;
+            padding: 5px;
+            margin: 05px;
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            margin: 5px;;
+            padding: 15px;
+           
+
+        }
+        
+        footer{
+            background-color: #000000;
+            text-align: center;
+            padding: 10px;;
+            margin: 5px;
+            color: WHITE;
+            margin: 15px;
+        }
+        nav > A:hover{
+            text-decoration: underline;
+            color: yellowgreen;
+        }
+        footer > p{
+            margin: 0px;
+
+        }
+
+    </style>
+<body>
+    <header>
+        <h1>MEU SITE</h1>
+            <nav>
+               
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+    </header>
+    <main>
+                <section>
+                    <article>
+                        <h1>desporto em luanda</h1>
+
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, delectus natus, fugit facere id repellendus reprehenderit minus cumque distinctio dolor porro iste voluptatibus numquam, dolore fuga. Dolor obcaecati aspernatur cumque.</p>
+
+                        <aside>desenvolvido por gebel paciência</aside>
+                    </article>
+                </section>
+                <section>
+                    <article>
+                        <h1>Principais noticias em ANGOLA</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, ipsum. Possimus, illo cum. Aut recusandae fugiat dignissimos. Quidem nostrum recusandae, deleniti quaerat non, quis perferendis quas, sapiente exercitationem corporis porro!</p>
+                    </article>
+                </section>
+    </main>
+    <footer>
+        <p>Desenvolvido POR GEBEL KULANDA PACIËNCIA SEBASTIÃO</p>
+
+    </footer>
+</body>
+</html>
